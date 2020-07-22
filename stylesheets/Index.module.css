@@ -1,0 +1,304 @@
+.pageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Styles for page one */
+.pageOne {
+  height: 100vh;
+  background: url(https://res.cloudinary.com/mimas-music/image/upload/v1589237229/Pe%C3%B1a%20El%20Paso/architecture-1477041_1280_1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.POheading {
+  width: 450px;
+  position: absolute;
+  top: 30vh;
+  background: rgba(0,0,0,0.8);
+  padding: 2rem;
+}
+@media (max-width: 1280px) {
+  .POheading {
+    left: 2rem;
+  }
+}
+@media (max-width: 724px) {
+  .POheading {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .POheading {
+    width: 350px;
+  }
+}
+@media (max-width: 460px) {
+  .POheading {
+    padding: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .POheading {
+    width: 325px;
+  }
+}
+
+.POheading h1 {
+  color: var(--text-white);
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+@media (max-width: 724px) {
+  .POheading h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .POheading {
+    width: 325px;
+    left: 1rem;
+  }
+}
+
+.PObuttonContainer {
+  position: absolute;
+  top: 350px;
+  left: -2rem;
+  display: flex;
+  padding: 2rem;
+}
+@media (max-width: 724px) {
+.PObuttonContainer {
+    top: 300px;
+  }
+}
+@media (max-width: 500px) {
+.PObuttonContainer {
+    padding: 1rem 0 2rem 2rem;
+  }
+}
+@media (max-width: 460px) {
+.PObuttonContainer {
+    top: 275px;
+    display: grid;
+  }
+}
+
+.PObutton1,
+.PObutton2 {
+  width: 225px;
+  font-size: var(--font-larger);
+  color: var(--text-dark);
+  background: var(--off-white);
+  padding: 1rem 2rem;
+  appearance: none;
+  outline: 0;
+  border: none;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (max-width: 724px) {
+  .PObutton1,
+  .PObutton2 {
+    width: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .PObutton1,
+  .PObutton2 {
+    width: 162.5px;
+    padding: 1rem;
+  }
+}
+
+.PObutton1:hover,
+.PObutton2:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.PObutton2 {
+  background: rgba(0,0,0,0.8);
+  border-top-style: 2px solid var(--grey-800);
+  border-right-style: 2px solid var(--grey-800);
+  border-bottom-style: 2px solid var(--grey-800);
+}
+
+.PObutton2 a {
+  color: var(--text-white);
+}
+
+/* Styles for page two */
+.PTheading h2 {
+  color: var(--text-normal);
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+@media (max-width: 724px) {
+  .PTheading h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 578px) {
+  .PTheading h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .PTheading h2 {
+    font-size: 1.7rem;
+  }
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-bottom: 5rem;
+}
+@media (max-width: 1224px) {
+  .cardGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cardGrid div:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 924px) {
+  .cardGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  .cardGrid div:nth-child(3){
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
+    margin-top: 0;
+  }
+}
+
+/* Styles for page three */
+.pageThree {
+  margin-bottom: 4rem;
+}
+
+.PTgrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+@media (max-width: 1100px) {
+  .PTgrid {
+    display: block;
+  }
+}
+
+.PThHeading {
+  max-width: 600px;
+  margin: 0 auto;
+}
+@media (max-width: 1280px) {
+  .PThHeading {
+    width: 500px;
+  }
+}
+@media (max-width: 1100px) {
+  .PThHeading {
+    width: 700px;
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 640px) {
+  .PThHeading {
+    width: 500px;
+  }
+}
+@media (max-width: 524px) {
+  .PThHeading {
+    width: 400px;
+  }
+}
+@media (max-width: 478px) {
+  .PThHeading {
+    width: 350px;
+  }
+}
+@media (max-width: 400px) {
+  .PThHeading {
+    width: 325px;
+  }
+}
+@media (max-width: 360px) {
+  .PThHeading {
+    width: 300px;
+  }
+}
+
+.PThHeading h2 {
+  font-family: var(--default-serif);
+  font-style: italic;
+
+  color: var(--text-normal);
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+@media (max-width: 1280px) {
+  .PThHeading h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1100px) {
+  .PThHeading h2 {
+      margin: 0;
+  }
+}
+
+.PThHeading h2 span {
+  font-family: var(--default-serif);
+  color: var(--text-normal);
+  font-size: 3.5rem;
+  font-style: italic;
+}
+
+.PThHeading p {
+  font-size: var(--font-larger);
+}
+
+.coupledContainer {
+  align-self: end;
+}
+@media (max-width: 1100px) {
+  .coupledContainer {
+    width: 70vw;
+    margin: 2rem auto 0 auto;
+  }
+}
+@media (max-width: 724px) {
+  .coupledContainer {
+    width: 85vw;
+  }
+}
+
+/* Styles for page four */
+@media (max-width: 1100px) {
+  .pageFour {
+    margin-top: 8rem;
+  }
+}
+@media (max-width: 724px) {
+  .pageFour {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 640px) {
+  .pageFour {
+    margin-top: 2rem;
+  }
+}
