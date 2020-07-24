@@ -18,6 +18,19 @@ const Blog = () => (
     <div className={BlogStyles.blog}>
       <h1>Welcome to the blog!</h1>
 
+      <Link href='/blog/posts/005'>
+        <div className={BlogStyles.card}>
+          <span>July 24, 2020</span>
+          <p>What El Paso Texas' Geography Has to Offer You</p>
+          <span>#elpasotexas #movetoelpaso #livinginelpasotexas</span>
+
+          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1595632845/Living%20In%20El%20Paso%20Texas/VIDEOCOVER_whereiselpasotexas.jpg' alt='thumbnail for the video' />
+
+          <h2>Curious about El Paso Texas?</h2>
+          <p>Here's a video from our YouTube channel, 'Living In El Paso Texas' that's all about where El Paso is geographically.</p>
+        </div>
+      </Link>
+
       <Link href='/blog/posts/004'>
         <div className={BlogStyles.card}>
           <span>July 20, 2020</span>
