@@ -18,6 +18,19 @@ const Blog = () => (
     <div className={BlogStyles.blog}>
       <h1>Welcome to the blog!</h1>
 
+      <Link href='/blog/posts/006'>
+        <div className={BlogStyles.card}>
+          <span>July 28, 2020</span>
+          <p>Millennials and homeownership in America.</p>
+          <span>#millenials #homeownership #generations</span>
+
+          <img src='https://images.unsplash.com/photo-1524601500432-1e1a4c71d692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80' alt='millennials making heart shapes with their hands' />
+
+          <h2>Are Millennials Interested in Homeownership? - Pt. 2</h2>
+          <p>In part 1 on this topic, we explored the idea of millennials and their relationship with homeownership. And while this...</p>
+        </div>
+      </Link>
+
       <Link href='/blog/posts/005'>
         <div className={BlogStyles.card}>
           <span>July 24, 2020</span>
