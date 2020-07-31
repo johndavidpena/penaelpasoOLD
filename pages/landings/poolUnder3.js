@@ -24,7 +24,7 @@ const Home = () => {
         <div className={LandingStyles.mainSection}>
           {showForm && (
             <div className={LandingStyles.mainContent}>
-              <h1>Send the listings!</h1>
+              <h1>See the listings!</h1>
               <LandingForm showForm={showForm} setShowForm={setShowForm} />
             </div>
           )}
@@ -33,9 +33,9 @@ const Home = () => {
             <div className={LandingStyles.thankyou}>
               <h2>Thank You!</h2>
               <br />
-              <p>You will receive an email with all of the homes under $300,000 WITH a pool!</p>
+              <p>Click the link below to view all of the homes under $300,000 WITH a pool!</p>
               <br />
-              <p>You can also get in touch with us immediately by clicking the Facebook Messenger icon in the lower right corner of your screen.</p>
+              <a href='https://bit.ly/39LrRxt' target='_blank'>CLICK HERE</a>
               <br />
               <p>Peña El Paso strives to go <i>Above and Beyond</i> for all of our clients.</p>
             </div>
