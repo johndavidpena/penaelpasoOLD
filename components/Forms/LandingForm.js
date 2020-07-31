@@ -46,9 +46,9 @@ const LandingForm = ({ showForm, setShowForm }) => {
         .then(() => {
           setShowForm(false);
         })
-        // .then(() => {
-        //   const twilioAlert = axios.post('/api/twilioAlert', { values: values });
-        // })
+        .then(() => {
+          const twilioAlert = axios.post('/api/twilioAlert', { values: values });
+        })
         .then(() => {
           gtag.event({
             action: 'submit_form',
