@@ -21,7 +21,7 @@ export default () => {
       </Head>
 
       <NextSeo
-        title='Peña El Paso'
+        title='Peña El Paso - Real Estate Services'
         description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area. We go above and beyond for all of our clients to make sure that they get the absolute best service in the industry. If you need any real estate services, contact Peña El Paso.'
         canonical='https://penaelpaso.com/'
       />

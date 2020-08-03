@@ -129,8 +129,6 @@ const LandingForm = ({ showForm, setShowForm }) => {
         value={formik.values.note}
       />
 
-      {/* <UserInterest /> */}
-
       <button type="submit">Submit</button>
     </form>
   );
