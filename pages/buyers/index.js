@@ -16,18 +16,18 @@ const Buyers = () => (
       canonical='https://penaelpaso.com/buyers/index'
     />
 
-    <div className={IndexStyles.pageContainer}>
+    {/* <div className={IndexStyles.pageContainer}>
       <BuyersGuide />
+    </div> */}
+    <h1 className={BuyerStyles.heading}>Welcome Buyers</h1>
+
+    <h2 className={BuyerStyles.subHeading}>COMING SOON!</h2>
+
+    <div className={BuyerStyles.placeholder}>
+      <img src='https://res.cloudinary.com/mimas-music/image/upload/v1595345074/SuitBROWNbackground1200x1800.jpg' alt='me casually leaning' />
     </div>
   </>
 );
 
 export default Buyers;
 
-{/* <h1 className={BuyerStyles.heading}>Welcome Buyers</h1>
-
-<h2 className={BuyerStyles.subHeading}>COMING SOON!</h2>
-
-<div className={BuyerStyles.placeholder}>
-  <img src='https://res.cloudinary.com/mimas-music/image/upload/v1595345074/SuitBROWNbackground1200x1800.jpg' alt='me casually leaning' />
-</div> */}
