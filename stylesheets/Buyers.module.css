@@ -16,3 +16,13 @@
 .placeholder img {
   width: 60% !important;
 }
+
+/* BuyersGuide styles */
+.BuyersGuide {
+  margin-top: 112px;
+}
+
+.BuyersGuide h1 {
+  text-align: center;
+  color: #ffffff;
+}

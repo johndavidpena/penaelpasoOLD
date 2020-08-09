@@ -52,7 +52,11 @@
 .middle img {
   width: 50%;
 }
-
+@media (max-width: 600px) {
+  .middle img {
+      height: 100px;
+  }
+}
 
 .bottom {
   padding: 1rem;

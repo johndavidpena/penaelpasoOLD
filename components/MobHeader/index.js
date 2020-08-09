@@ -19,7 +19,7 @@ const Header = ({ open, setOpen }) => {
 
       <div className={MHStyles.logo}>
         <Link href='/'>
-          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1591641576/Pe%C3%B1a%20El%20Paso/720checkeredOrange.png' alt="Peña El Paso logo" />
+          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png' alt="Peña El Paso logo" />
         </Link>
       </div>
     </nav>
