@@ -4,7 +4,7 @@ import Link from '../components/Link.js';
 import IndexStyles from '../stylesheets/Index.module.css';
 import '../components/Translate';
 import CardOne from '../components/Cards/CardOne';
-import Map from '../components/Map';
+// import Map from '../components/Map';
 
 const mapProps = {
   options: {
@@ -81,9 +81,9 @@ export default () => {
         </div>
       </div>
 
-      <div className={IndexStyles.pageFour}>
+      {/* <div className={IndexStyles.pageFour}>
         <Map {...mapProps} />
-      </div>
+      </div> */}
     </>
   );
 }
