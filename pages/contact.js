@@ -20,7 +20,7 @@ const Contact = () => {
       />
 
       <div className={ContactStyles.contact}>
-        <img src='https://res.cloudinary.com/mimas-music/image/upload/v1589400490/Pe%C3%B1a%20El%20Paso/narrowKitchen.jpg' alt='luxury kitchen' />
+        <img src='https://res.cloudinary.com/mimas-music/image/upload/v1589400490/Pe%C3%B1a%20El%20Paso/narrowKitchen.jpg' alt='luxury-kitchen' />
 
         {showForm && (
           <div className={ContactStyles.form}>
