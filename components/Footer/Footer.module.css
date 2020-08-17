@@ -50,7 +50,7 @@
 }
 
 .middle img {
-  width: 50%;
+  width: 80%;
 }
 @media (max-width: 600px) {
   .middle img {

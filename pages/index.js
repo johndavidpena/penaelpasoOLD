@@ -77,7 +77,7 @@ export default () => {
           </div>
 
           <div className={IndexStyles.coupledContainer}>
-            <img src='https://res.cloudinary.com/mimas-music/image/upload/v1589758552/Pe%C3%B1a%20El%20Paso/coupled.png' alt="beautiful kitchen" />
+            <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597687612/Pe%C3%B1a%20El%20Paso/coupled.jpg' alt="beautiful kitchen" />
           </div>
         </div>
       </div>

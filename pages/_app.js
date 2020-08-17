@@ -16,10 +16,10 @@ export default function MyApp({ Component, pageProps }) {
       <>
         <DefaultSeo {...SEO} />
 
-        <MessengerCustomerChat
+        {/* <MessengerCustomerChat
           pageId='110328800645854'
           appId='238495870936143'
-        />
+        /> */}
 
         <Component {...pageProps} />
         <style jsx global>{`

@@ -17,7 +17,7 @@ const Footer = () => (
     </div>
 
     <div className={FooterStyles.middle}>
-      <img src='https://res.cloudinary.com/mimas-music/image/upload/v1592945032/eXp/eXpLOGO716x380.png' alt='EXP Realty 716x380 logo' />
+      <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597687797/eXp/eXpLOGO2_400x212.jpg' alt='EXP Realty logo' />
     </div>
 
     <div className={FooterStyles.bottom}>

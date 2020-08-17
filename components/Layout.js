@@ -25,8 +25,9 @@ export default props => {
   const [open, setOpen] = useState(false);
 
   return (
-    <animated.div style={fade} className='navMainFooter' >
-      <div>
+    // ORIGINAL <animated.div style={fade} className='navMainFooter' >
+    <animated.div style={fade} >
+      <div className='navMainFooter'>
         {menu === 'mobile' && <MobHeader open={open} setOpen={setOpen} /> || <DeskNav />}
 
         <main>
