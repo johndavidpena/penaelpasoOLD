@@ -54,7 +54,8 @@
 }
 @media (max-width: 600px) {
   .middle img {
-      height: 100px;
+    width: 50%;
+    height: 100px;
   }
 }
 

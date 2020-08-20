@@ -6,19 +6,32 @@ import BlogStyles from '../../stylesheets/Blog.module.css';
 const Blog = () => (
   <>
     <Head>
-      <title>Peña El Paso - Blog</title>
+      <title>Peña El Paso | Real Estate Blog</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso - Blog'
-      description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area.'
+      title='Peña El Paso | Real Estate Blog'
+      description='The Peña El Paso blog features lifestyle, community, and real estate trends that are happening in El Paso and the country. John Peña also has a Youtube channel called "Living in El Paso Texas" that showcases our amazing city and community.'
       canonical='https://penaelpaso.com/blog'
     />
 
     <div className={BlogStyles.blog}>
       <h1>Welcome to the blog!</h1>
 
-      <Link href='/blog/posts/006'>
+      <Link href='/blog/posts/east-side-el-paso'>
+        <div className={BlogStyles.card}>
+          <span>August 20, 2020</span>
+          <p>The East Side of El Paso</p>
+          <span>#elpasotexas #movetoelpaso #livinginelpasotexas</span>
+
+          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597934360/Pe%C3%B1a%20El%20Paso/Blog/east-side-el-paso.jpg' alt='east-side-of-el-paso' title='east-side-of-el-paso' />
+
+          <h2>Check out the east side of El Paso!</h2>
+          <p>Here's a video from our YouTube channel, 'Living In El Paso Texas' that's all about the east side.</p>
+        </div>
+      </Link>
+
+      <Link href='/blog/posts/millennials-homeownership-2'>
         <div className={BlogStyles.card}>
           <span>July 28, 2020</span>
           <p>Millennials and homeownership in America.</p>
@@ -31,7 +44,7 @@ const Blog = () => (
         </div>
       </Link>
 
-      <Link href='/blog/posts/005'>
+      <Link href='/blog/posts/el-paso-location'>
         <div className={BlogStyles.card}>
           <span>July 24, 2020</span>
           <p>What El Paso Texas' Geography Has to Offer You</p>
@@ -44,7 +57,7 @@ const Blog = () => (
         </div>
       </Link>
 
-      <Link href='/blog/posts/004'>
+      <Link href='/blog/posts/why-we-moved-el-paso'>
         <div className={BlogStyles.card}>
           <span>July 20, 2020</span>
           <p>Top 5 Reasons Why We Moved to El Paso Texas</p>
@@ -57,7 +70,7 @@ const Blog = () => (
         </div>
       </Link>
 
-      <Link href='/blog/posts/003'>
+      <Link href='/blog/posts/millennials-homeownership-1'>
         <div className={BlogStyles.card}>
           <span>July 8, 2020</span>
           <p>Millennials and homeownership in America.</p>
@@ -70,7 +83,7 @@ const Blog = () => (
         </div>
       </Link>
 
-      <Link href='/blog/posts/002'>
+      <Link href='/blog/posts/shelter-in-place'>
         <div className={BlogStyles.card}>
           <span>June 30, 2020</span>
           <p>Has sheltering in place changed the way that you use your home?</p>
@@ -84,7 +97,7 @@ const Blog = () => (
         </div>
       </Link>
 
-      <Link href='/blog/posts/001'>
+      <Link href='/blog/posts/working-from-home'>
         <div className={BlogStyles.card}>
           <span>June 12, 2020</span>
           <p>Working from home and how it might influence where people choose to live.</p> <span>#workingfromhome #relocate #makeamove</span>

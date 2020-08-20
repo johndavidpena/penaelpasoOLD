@@ -4,9 +4,8 @@ import NavStyles from './Navigation.module.css';
 const DeskNav = () => (
   <div className={NavStyles.DeskNav}>
     <div className={NavStyles.logo}>
-      <Link href='/'>
-        {/* <img src='https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png' alt="Peña El Paso logo" /> */}
-        <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597688173/Pe%C3%B1a%20El%20Paso/120BLACKonWHITE.jpg' alt="Peña El Paso logo" />
+      <Link href='/index'>
+        <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597688173/Pe%C3%B1a%20El%20Paso/120BLACKonWHITE.jpg' alt='Peña-El-Paso-logo' title=' Peña-El-Paso-logo' />
       </Link>
     </div>
 

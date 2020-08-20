@@ -2,21 +2,21 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 
-const Post003 = () => (
+const Post = () => (
   <>
     <Head>
-      <title>Peña El Paso - Blog</title>
+      <title>Peña El Paso | Millennials and Homeownership Pt. 1</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso - Blog'
-      description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area.'
-      canonical='https://penaelpaso.com/blog'
+      title='Peña El Paso | Millennials and Homeownership Pt. 1'
+      description='Are millennials interested in home ownership? This two part blog post explores that question in 2020.'
+      canonical='https://penaelpaso.com/blog/posts/millennials-homeownership-1'
     />
 
     <div className={BlogStyles.blog}>
       <div className={BlogStyles.post}>
-        <img src='https://images.unsplash.com/photo-1508166785545-c2dd4c113c66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' alt='millennials taking selfies' />
+        <img src='https://images.unsplash.com/photo-1508166785545-c2dd4c113c66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' alt='millennials-taking-selfies' title='millennials-taking-selfies' />
 
         <div className={BlogStyles.postTitle}>
           <h1>Are Millennials Interested in Homeownership? - Pt. 1</h1>
@@ -27,13 +27,13 @@ const Post003 = () => (
         <br />
         <p>We are on the brink of a wave of millennials coming into their 30’s now which is around the time that many start thinking about marriage and families and...wait for it...their first home! However, many millennials have been holding back on these traditional norms for quite some time and the question is, why?</p>
         <br />
-        <img src='https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80' alt='young guys casually working in a sleek office' />
+        <img src='https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80' alt='young-people-working' title='young-people-working' />
         <br />
         <p>Well, not surprisingly, millennials are different from other generations. According to an article in Business Insider, here are 5 ways that millennials are different from previous generations. Number one, they are more comfortable living in cities than suburbs. Two, they want to get more meaning and purpose out of work. Three, they are more health-conscious. Four, they have less money than their parents and slower to buy homes. And finally, they are putting off marriage longer than previous generations.</p>
         <br />
         <p>Now, if you have millennial children like I do, chances are, some or all of those will resonate with you. They certainly do with me! But in regards to owning a home, for people under the age of 35, the homeownership rate is much lower than it used to be. So, if that is true, where are all of the millennials living? You guessed it, in rentals or at home with their parents.</p>
         <br />
-        <img src='https://images.unsplash.com/photo-1590782937821-b30244c19ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' alt='young birds in a nest with their mouths open' />
+        <img src='https://images.unsplash.com/photo-1590782937821-b30244c19ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' alt='baby-birds-crying' title='baby-birds-crying' />
         <br />
         <p>In 2005 there were roughly 10% of young adults aged 25 - 34 living with their parents, but that has steadily increased ever since, and is currently at 16%. This is about 3.6 million more young people living under their parent’s roof.</p>
         <br />
@@ -49,4 +49,4 @@ const Post003 = () => (
   </>
 );
 
-export default Post003;
+export default Post;

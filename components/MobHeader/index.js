@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-// import Link from 'next/link';
 import Link from '../Link';
 import MHStyles from './MH.module.css';
 import Burger from '../Burger';
@@ -19,7 +18,7 @@ const Header = ({ open, setOpen }) => {
 
       <div className={MHStyles.logo}>
         <Link href='/'>
-          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png' alt="Peña El Paso logo" />
+          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png' alt='Peña-El-Paso-logo' title='Peña-El-Paso-logo' />
         </Link>
       </div>
     </nav>

@@ -16,19 +16,18 @@ const About = () => {
     } else if (width > 640) {
       setScreenSize('desktop');
     }
-    // TODO: Clean up hook below to avoid memory leak
     return () => { };
   }, [width]);
 
   return (
     <>
       <Head>
-        <title>Peña El Paso - About</title>
+        <title>Peña El Paso | About John Peña</title>
       </Head>
 
       <NextSeo
-        title='Peña El Paso- About'
-        description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area.'
+        title='Peña El Paso | About John Peña'
+        description='John Peña is the owner of Peña El Paso. He is a dedicated and trusted realtor in the greater El Paso area. As a former educator turned real estate agent, he understands how to communicate and work tirelessly on your behalf.'
         canonical='https://penaelpaso.com/about'
       />
 
@@ -52,7 +51,7 @@ const About = () => {
           <br />
           <p>As a former educator, John is well versed in working with all types of personalities and perspectives. Educating buyers and sellers on every aspect of a transaction is a top priority. He earns the respect and trust of clients by working tirelessly on their behalf and by always offering them competent and candid advice.  With a background in web development, John utilizes the latest trends in technology to provide clients with the best buying and selling experience possible.</p>
           <br />
-          <p>One of the many reasons he joined EXP Realty is because of their commitment to the best technology offered in the industry.  John is deeply connected to El Paso and Texas. He was born outside of Dallas and grew up in New Caney, a small town outside of Houston. El Paso is home where he is active in numerous local organizations and social groups. When he isn’t working, he enjoys hiking, brazilian jiu jitsu, traveling, and spending time with his family and friends.  John can be reached at (915)355-3477 or visit his personal website at johndavidpena.com.</p>
+          <p>One of the many reasons he joined EXP Realty is because of their commitment to the best technology offered in the industry.  John is deeply connected to El Paso and Texas. He was born outside of Dallas and grew up in New Caney, a small town outside of Houston. El Paso is home where he is active in numerous local organizations and social groups. When he isn’t working, he enjoys hiking, brazilian jiu jitsu, traveling, and spending time with his family and friends.  John can be reached at (915)355-3477 or email him at john@penaelpaso.com.</p>
         </div>
       </div>
     </>

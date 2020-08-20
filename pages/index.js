@@ -18,18 +18,17 @@ export default () => {
   return (
     <>
       <Head>
-        <title>Peña El Paso</title>
+        <title>Peña El Paso | Real Estate Lifestyle</title>
       </Head>
 
       <NextSeo
-        title='Peña El Paso - Real Estate Services'
-        description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area. We go above and beyond for all of our clients to make sure that they get the absolute best service in the industry. If you need any real estate services, contact Peña El Paso.'
+        title='Peña El Paso - Real Estate Agent'
+        description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area. We go above and beyond for all of our clients to make sure that they get the absolute best service in the industry. John Peña, owner of Peña El Paso, is a trusted and dedicated realtor.'
         canonical='https://penaelpaso.com/'
       />
 
       <div className={IndexStyles.pageOne}>
         <div className={IndexStyles.pageContainer}>
-          {/* TODO: Slide in the div below */}
           <div className={IndexStyles.POheading}>
             <h1>Find your</h1>
             <h1>home in</h1>
@@ -51,14 +50,12 @@ export default () => {
         </div>
       </div>
 
-      {/* TODO: On scroll, slide in content */}
       <div className={IndexStyles.pageTwo}>
         <div className={IndexStyles.PTheading}>
           <h2>Serving All of Your Needs</h2>
         </div>
 
         <div className={IndexStyles.cardGrid}>
-          {/* TODO: On scroll, rotate icon maybe */}
           <CardOne title='Buyers' iconUrl='https://res.cloudinary.com/mimas-music/image/upload/v1589493154/Pe%C3%B1a%20El%20Paso/96circleLightBlue.png' text1='Buying your first home or your next home, let us help you find your dream home!' buttonText='More Info' buttonLink='' />
           <CardOne title='Sellers' iconUrl='https://res.cloudinary.com/mimas-music/image/upload/v1589493154/Pe%C3%B1a%20El%20Paso/96circleLightBlue.png' text1='Selling your home is a big decision, let Peña El Paso take care of all the details along the way.' buttonText='More Info' buttonLink='' />
           <CardOne title='Investors' iconUrl='https://res.cloudinary.com/mimas-music/image/upload/v1589493154/Pe%C3%B1a%20El%20Paso/96circleLightBlue.png' text1='El Paso is an up and coming market with a cost of living that is attracting new residents.' buttonText='More Info' buttonLink='' />
@@ -77,7 +74,7 @@ export default () => {
           </div>
 
           <div className={IndexStyles.coupledContainer}>
-            <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597687612/Pe%C3%B1a%20El%20Paso/coupled.jpg' alt="beautiful kitchen" />
+            <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597687612/Pe%C3%B1a%20El%20Paso/coupled.jpg' alt="beautiful-kitchen" title="beautiful-kitchen" />
           </div>
         </div>
       </div>

@@ -3,16 +3,16 @@ import { NextSeo } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 import VideoStyles from '../../../stylesheets/Video.module.css';
 
-const Post005 = () => (
+const Post = () => (
   <>
     <Head>
-      <title>Peña El Paso - Blog</title>
+      <title>Peña El Paso | El Paso Location</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso - Blog'
-      description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area.'
-      canonical='https://penaelpaso.com/blog/004'
+      title='Peña El Paso | El Paso Location'
+      description='El Paso Texas is located in west Texas on the border with New Mexico and Mexico. This video from our Youtube channel "Living in El Paso Texas" is all about our location and geography.'
+      canonical='https://penaelpaso.com/blog/posts/el-paso-location'
     />
 
     <div className={BlogStyles.blog}>
@@ -42,4 +42,4 @@ const Post005 = () => (
   </>
 );
 
-export default Post005;
+export default Post;

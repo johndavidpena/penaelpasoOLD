@@ -14,13 +14,13 @@ const Contact = () => {
       </Head>
 
       <NextSeo
-        title='Peña El Paso - Contact'
-        description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area.'
+        title='Peña El Paso | Contact Us for All Your Real Estate Needs'
+        description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area. Contact John Peña, your trusted realtor in El Paso.'
         canonical='https://penaelpaso.com/contact'
       />
 
       <div className={ContactStyles.contact}>
-        <img src='https://res.cloudinary.com/mimas-music/image/upload/v1589400490/Pe%C3%B1a%20El%20Paso/narrowKitchen.jpg' alt='luxury-kitchen' />
+        <img src='https://res.cloudinary.com/mimas-music/image/upload/v1589400490/Pe%C3%B1a%20El%20Paso/narrowKitchen.jpg' alt='luxury-kitchen' title='luxury-kitchen' />
 
         {showForm && (
           <div className={ContactStyles.form}>

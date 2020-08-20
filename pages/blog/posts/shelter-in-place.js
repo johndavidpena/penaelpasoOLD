@@ -2,21 +2,21 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 
-const Post002 = () => (
+const Post = () => (
   <>
     <Head>
-      <title>Peña El Paso - Blog</title>
+      <title>Peña El Paso | Sheltering in Place</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso - Blog'
-      description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area.'
-      canonical='https://penaelpaso.com/blog'
+      title='Peña El Paso | Sheltering in Place'
+      description='As many people find themselves sheltering in place because of the pandemic, some are re-thinking what they want in a home.'
+      canonical='https://penaelpaso.com/blog/posts/shelter-in-place'
     />
 
     <div className={BlogStyles.blog}>
       <div className={BlogStyles.post}>
-        <img className={BlogStyles.verticalImage} src='https://media-exp1.licdn.com/dms/image/C5612AQGRIfhPo74Z6w/article-cover_image-shrink_720_1280/0?e=1599696000&v=beta&t=XlepB8dDTJBQf7OZomCsFWWE0gbyWQVJnUKYGj1M5Nk' alt='a woman sitting at a home desk' />
+        <img className={BlogStyles.verticalImage} src='https://media-exp1.licdn.com/dms/image/C5612AQGRIfhPo74Z6w/article-cover_image-shrink_720_1280/0?e=1599696000&v=beta&t=XlepB8dDTJBQf7OZomCsFWWE0gbyWQVJnUKYGj1M5Nk' alt='woman-working-from-home' title='woman-working-from-home' />
 
         <div className={BlogStyles.postTitle}>
           <h1>Has Sheltering In Place Changed What We Want In Our Homes?</h1>
@@ -31,13 +31,13 @@ const Post002 = () => (
         <br />
         <p>Another trend that has picked up steam during these last couple of months is Flex Rooms. A flex room is a space or room that serves multiple functions. This can range from a home gym or yoga space to a kid’s area that is dedicated to studying and homework. A flex room could be the guest bedroom that you’ve converted into your private meditation room, also know as ‘mom needs a timeout’ room.</p>
         <br />
-        <img src='https://media-exp1.licdn.com/dms/image/C5612AQFXpB0x9pS4_A/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=Sk-_Qtq96VxYx5iZMVkhfQvkhFXhv05fvicTa3loVRk' alt='a indoor/outdoor space' />
+        <img src='https://media-exp1.licdn.com/dms/image/C5612AQFXpB0x9pS4_A/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=Sk-_Qtq96VxYx5iZMVkhfQvkhFXhv05fvicTa3loVRk' alt='indoor-outdoor-space' title='indoor-outdoor-space' />
         <br />
         <p>If staying at home is the new going out, the already growing outdoor living trend has exploded! Weather permitting, the space outside of the home can be invaluable. Many folks are putting time and money into landscaping, outdoor structures like pergolas and decks, as well as recreation equipment for both kids and adults. The nice thing about outdoor living improvements is that they are relatively affordable, especially if you are willing to put in a little sweat equity.</p>
         <br />
         <p>And finally, sheltering in place has forced many of us to deal with the clutter. Being home more inevitably means more stuff, and that stuff can start to pile up quickly. Consequently, there is a lot more interest in organization for closets, kitchen pantries, garages, outdoor equipment, etc. And while we all can’t be Marie Kondo, a little bit of organization goes a long way. Pinterest is a wealth of information when it comes to home organization and ideas too!</p>
         <br />
-        <img src='https://media-exp1.licdn.com/dms/image/C5612AQGbKCCNx4xkeA/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=SQHi5-MmsayrnSe01Yu-6EVYNxXdVPWAn2Nz7-MvD0U' alt='a garage shed with tools space' />
+        <img src='https://media-exp1.licdn.com/dms/image/C5612AQGbKCCNx4xkeA/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=SQHi5-MmsayrnSe01Yu-6EVYNxXdVPWAn2Nz7-MvD0U' alt='garage-workshop' title='garage-workshop' />
         <br />
         <p>So, what kind of modifications have you made to your home in the last couple of months?</p>
         <br />
@@ -47,4 +47,4 @@ const Post002 = () => (
   </>
 );
 
-export default Post002;
+export default Post;

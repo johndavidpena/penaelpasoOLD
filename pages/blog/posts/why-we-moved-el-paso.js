@@ -3,16 +3,16 @@ import { NextSeo } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 import VideoStyles from '../../../stylesheets/Video.module.css';
 
-const Post004 = () => (
+const Post = () => (
   <>
     <Head>
-      <title>Peña El Paso - Blog</title>
+      <title>Peña El Paso | Why We Moved to El Paso</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso - Blog'
-      description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area.'
-      canonical='https://penaelpaso.com/blog/004'
+      title='Peña El Paso | Why We Moved to El Paso'
+      description='This first video from our Youtube channel "Living in El Paso Texas" is all about the top 5 reasons why we moved to El Paso.'
+      canonical='https://penaelpaso.com/blog/posts/why-we-moved-el-paso'
     />
 
     <div className={BlogStyles.blog}>
@@ -42,4 +42,4 @@ const Post004 = () => (
   </>
 );
 
-export default Post004;
+export default Post;

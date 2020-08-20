@@ -2,21 +2,21 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 
-const Post001 = () => (
+const Post = () => (
   <>
     <Head>
-      <title>Peña El Paso - Blog</title>
+      <title>Peña El Paso | Working from Home</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso - Blog'
-      description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area.'
-      canonical='https://penaelpaso.com/blog'
+      title='Peña El Paso | Working from Home'
+      description='With the onset of the global pandemic, many employees find themselves working from home. This begs the question, are work from home employees reconsidering where they can and should live?'
+      canonical='https://penaelpaso.com/blog/posts/working-from-home'
     />
 
     <div className={BlogStyles.blog}>
       <div className={BlogStyles.post}>
-        <img src='https://media-exp1.licdn.com/dms/image/C5612AQHry1gmrrHVSg/article-cover_image-shrink_720_1280/0?e=1599696000&v=beta&t=UcMdn_bCT-VJu_4W4UIgxNxXz39vr35ko3MavE-3oD0' alt='exterior sidewalk of a beautiful home in the desert' />
+        <img src='https://media-exp1.licdn.com/dms/image/C5612AQHry1gmrrHVSg/article-cover_image-shrink_720_1280/0?e=1599696000&v=beta&t=UcMdn_bCT-VJu_4W4UIgxNxXz39vr35ko3MavE-3oD0' alt='desert-sidewalk-home' title='desert-sidewalk-home' />
 
         <div className={BlogStyles.postTitle}>
           <h1>Is Working From Home Changing Where We Can Live?</h1>
@@ -29,7 +29,7 @@ const Post001 = () => (
         <br />
         <p>It’s easy to see how this work-from-home scenario benefits corporations as it saves them huge sums of money in commercial leases, but what about employees? Most employees are thrilled to have more flexibility, less commute time, and more time for leisure and family. A recent Hanley Wood survey showed that 55% of respondents were willing to relocate to another city if they were currently living in an expensive market and could work remotely.</p>
         <br />
-        <img src='https://media-exp1.licdn.com/dms/image/C5612AQFeF5HtzPygIg/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=KXoF_Z0cWjDXeS_SD3iP4VG3DG8BADu5ObA1YOtEkcg' alt='a graph supporting the statement above' />
+        <img src='https://media-exp1.licdn.com/dms/image/C5612AQFeF5HtzPygIg/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=KXoF_Z0cWjDXeS_SD3iP4VG3DG8BADu5ObA1YOtEkcg' alt='graph-relocate-survey' title='graph-relocate-survey' />
         <br />
         <p>So, would you consider moving away from a large urban area in exchange for that big house on the hill or a larger home away from it all?</p>
         <br />
@@ -39,4 +39,4 @@ const Post001 = () => (
   </>
 );
 
-export default Post001;
+export default Post;

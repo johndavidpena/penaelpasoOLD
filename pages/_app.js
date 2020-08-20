@@ -4,7 +4,7 @@ import * as gtag from '../utils/gtag';
 import * as Sentry from '@sentry/browser';
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+// import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export default function MyApp({ Component, pageProps }) {
   Sentry.init({ dsn: "https://84250f46040040e587b6487286a54903@o382987.ingest.sentry.io/5242396" });
