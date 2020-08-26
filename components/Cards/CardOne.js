@@ -9,7 +9,8 @@ const CardOne = props => (
     </div>
     <div className={CardStyles.cardOneBottom}>
       <p>{props.text1}</p>
-      <Link href='/contact'>
+      {/* <Link href='/contact'> */}
+      <Link href={props.buttonLink}>
         <button>
           <a>{props.buttonText}</a>
         </button>

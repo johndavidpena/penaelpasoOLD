@@ -18,7 +18,6 @@ const Buyers = () => {
     } else if (width > 640) {
       setScreenSize('desktop');
     }
-    // TODO: Clean up hook below to avoid memory leak
     return () => { };
   }, [width]);
 
@@ -34,10 +33,10 @@ const Buyers = () => {
         canonical='https://penaelpaso.com/buyers/index'
       />
 
-      {/* <div className={IndexStyles.pageContainer}>
-      <BuyersGuide />
-    </div> */}
-      <h1 className={BuyerStyles.heading}>Welcome Buyers</h1>
+      <div className={IndexStyles.pageContainer}>
+        <BuyersGuide />
+      </div>
+      {/* <h1 className={BuyerStyles.heading}>Welcome Buyers</h1>
 
       <h2 className={BuyerStyles.subHeading}>COMING SOON!</h2>
 
@@ -51,7 +50,7 @@ const Buyers = () => {
         <div className={BuyerStyles.placeholder}>
           <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597529983/Pe%C3%B1a%20El%20Paso/john-pena-suit-d.jpg' alt='john-pena-suit' title='john-pena-suit' />
         </div>
-      )}
+      )} */}
     </>
   );
 }

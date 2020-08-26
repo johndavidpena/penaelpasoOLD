@@ -14,7 +14,6 @@ const mapProps = {
 }
 
 export default () => {
-
   return (
     <>
       <Head>
@@ -56,9 +55,9 @@ export default () => {
         </div>
 
         <div className={IndexStyles.cardGrid}>
-          <CardOne title='Buyers' iconUrl='https://res.cloudinary.com/mimas-music/image/upload/v1589493154/Pe%C3%B1a%20El%20Paso/96circleLightBlue.png' text1='Buying your first home or your next home, let us help you find your dream home!' buttonText='More Info' buttonLink='' />
-          <CardOne title='Sellers' iconUrl='https://res.cloudinary.com/mimas-music/image/upload/v1589493154/Pe%C3%B1a%20El%20Paso/96circleLightBlue.png' text1='Selling your home is a big decision, let Peña El Paso take care of all the details along the way.' buttonText='More Info' buttonLink='' />
-          <CardOne title='Investors' iconUrl='https://res.cloudinary.com/mimas-music/image/upload/v1589493154/Pe%C3%B1a%20El%20Paso/96circleLightBlue.png' text1='El Paso is an up and coming market with a cost of living that is attracting new residents.' buttonText='More Info' buttonLink='' />
+          <CardOne title='Buyers' iconUrl='https://res.cloudinary.com/mimas-music/image/upload/v1589493154/Pe%C3%B1a%20El%20Paso/96circleLightBlue.png' text1='Buying your first home or your next home, let us help you find your dream home!' buttonText='More Info' buttonLink='/buyers' />
+          <CardOne title='Sellers' iconUrl='https://res.cloudinary.com/mimas-music/image/upload/v1589493154/Pe%C3%B1a%20El%20Paso/96circleLightBlue.png' text1='Selling your home is a big decision, let Peña El Paso take care of all the details along the way.' buttonText='More Info' buttonLink='/sellers' />
+          <CardOne title='Investors' iconUrl='https://res.cloudinary.com/mimas-music/image/upload/v1589493154/Pe%C3%B1a%20El%20Paso/96circleLightBlue.png' text1='El Paso is an up and coming market with a cost of living that is attracting new residents.' buttonText='More Info' buttonLink='/contact' />
         </div>
       </div>
 

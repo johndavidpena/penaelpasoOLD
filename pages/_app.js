@@ -45,15 +45,6 @@ export default function MyApp({ Component, pageProps }) {
       font-display: swap;
     }
 
-    @font-face {
-      font-family: 'Marvin';
-      font-weight: bold;
-      src:
-      local('Marvin'),
-      local('MarvinVisions-Bold'),
-      url(../fonts/MarvinVisions-Bold.otf);
-    }
-
     :root {
       --text-black: hsl(0, 0% 2%);
       --text-dark: hsl(0, 0%, 9%);
