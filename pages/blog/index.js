@@ -18,6 +18,19 @@ const Blog = () => (
     <div className={BlogStyles.blog}>
       <h1>Welcome to the blog!</h1>
 
+      <Link href='/blog/posts/west-side-el-paso'>
+        <div className={BlogStyles.card}>
+          <span>August 28, 2020</span>
+          <p>The West Side of El Paso</p>
+          <span>#elpasotexas #movetoelpaso #livinginelpasotexas</span>
+
+          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1598636197/Pe%C3%B1a%20El%20Paso/Blog/west-side-thumb-522.jpg' alt='west-side-of-el-paso' title='west-side-of-el-paso' />
+
+          <h2>Check out the west side of El Paso!</h2>
+          <p>Here's a video from our YouTube channel, 'Living In El Paso Texas' that's all about the west side.</p>
+        </div>
+      </Link>
+
       <Link href='/blog/posts/east-side-el-paso'>
         <div className={BlogStyles.card}>
           <span>August 20, 2020</span>
