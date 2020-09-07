@@ -27,9 +27,6 @@ export default class extends Document {
           `,
             }}
           />
-          {/* <!-- Facebook Pixel Code --> */}
-          {/* fbq('init', '339087070449774'); */}
-          {/* <!-- End Facebook Pixel Code --> */}
         </Head>
         <body>
           <Main />

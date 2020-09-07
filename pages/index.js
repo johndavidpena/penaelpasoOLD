@@ -6,24 +6,45 @@ import '../components/Translate';
 import CardOne from '../components/Cards/CardOne';
 // import Map from '../components/Map';
 
-const mapProps = {
-  options: {
-    center: { lat: 31.772543, lng: -106.460953 },
-    zoom: 12,
-  }
-}
+// const mapProps = {
+//   options: {
+//     center: { lat: 31.772543, lng: -106.460953 },
+//     zoom: 12,
+//   }
+// }
 
 export default () => {
   return (
     <>
       <Head>
-        <title>Peña El Paso | Real Estate Lifestyle</title>
+        <title>El Paso Real Estate | Peña El Paso</title>
       </Head>
 
       <NextSeo
-        title='Peña El Paso - Real Estate Agent'
-        description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area. We go above and beyond for all of our clients to make sure that they get the absolute best service in the industry. John Peña, owner of Peña El Paso, is a trusted and dedicated realtor.'
+        title='El Paso Real Estate | Peña El Paso'
+        description='Peña El Paso is the premier real estate service for buyers, sellers, and investors in El Paso, Texas. Your real estate needs are our highest priority. We specialize in relocating buyers and helping sellers get the most for their listing. Let us go above and beyond for all of your real estate needs in El Paso.'
         canonical='https://penaelpaso.com/'
+        openGraph={{
+          url: 'https://penaelpaso.com/',
+          title: 'El Paso Real Estate | Peña El Paso',
+          description: 'Peña El Paso is the premier real estate service for buyers, sellers, and investors in El Paso, Texas. Your real estate needs are our highest priority. We specialize in relocating buyers and helping sellers get the most for their listing. Let us go above and beyond for all of your real estate needs in El Paso.',
+          images: [
+            {
+              url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
+              width: 720,
+              height: 720,
+              alt: 'El Paso Real Estate - Peña El Paso logo',
+            },
+            // {
+            //   url: 'https://www.example.ie/og-image-02.jpg',
+            //   width: 900,
+            //   height: 800,
+            //   alt: 'Og Image Alt Second',
+            // },
+            // { url: 'https://www.example.ie/og-image-03.jpg' },
+            // { url: 'https://www.example.ie/og-image-04.jpg' },
+          ],
+        }}
       />
 
       <div className={IndexStyles.pageOne}>

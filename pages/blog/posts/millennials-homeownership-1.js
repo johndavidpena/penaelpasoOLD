@@ -5,13 +5,34 @@ import BlogStyles from '../../../stylesheets/Blog.module.css';
 const Post = () => (
   <>
     <Head>
-      <title>Peña El Paso | Millennials and Homeownership Pt. 1</title>
+      <title>El Paso Real Estate - Millennials and Homeownership Pt. 1 | Peña El Paso</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso | Millennials and Homeownership Pt. 1'
+      title='El Paso Real Estate - Millennials and Homeownership Pt. 1 | Peña El Paso'
       description='Are millennials interested in home ownership? This two part blog post explores that question in 2020.'
       canonical='https://penaelpaso.com/blog/posts/millennials-homeownership-1'
+      openGraph={{
+        url: 'https://penaelpaso.com/blog/posts/millennials-homeownership-1',
+        title: 'El Paso Real Estate - Millennials and Homeownership Pt. 1 | Peña El Paso',
+        description: 'Are millennials interested in home ownership? This two part blog post explores that question in 2020.',
+        images: [
+          {
+            url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
+            width: 720,
+            height: 720,
+            alt: 'El Paso Real Estate - Peña El Paso logo',
+          },
+          // {
+          //   url: 'https://www.example.ie/og-image-02.jpg',
+          //   width: 900,
+          //   height: 800,
+          //   alt: 'Og Image Alt Second',
+          // },
+          // { url: 'https://www.example.ie/og-image-03.jpg' },
+          // { url: 'https://www.example.ie/og-image-04.jpg' },
+        ],
+      }}
     />
 
     <div className={BlogStyles.blog}>

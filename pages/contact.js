@@ -10,13 +10,34 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Peña El Paso - Contact</title>
+        <title>El Paso Real Estate | Contact Peña El Paso</title>
       </Head>
 
       <NextSeo
-        title='Peña El Paso | Contact Us for All Your Real Estate Needs'
-        description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area. Contact John Peña, your trusted realtor in El Paso.'
+        title='El Paso Real Estate | Contact Peña El Paso'
+        description='Peña El Paso is the premier real estate service for buyers, sellers, and investors in El Paso, Texas. Your real estate needs are our highest priority. We specialize in relocating buyers and helping sellers get the most for their listing. Let us go above and beyond for all of your real estate needs in El Paso.'
         canonical='https://penaelpaso.com/contact'
+        openGraph={{
+          url: 'https://penaelpaso.com/contact',
+          title: 'El Paso Real Estate | Contact Peña El Paso',
+          description: 'Peña El Paso is the premier real estate service for buyers, sellers, and investors in El Paso, Texas. Your real estate needs are our highest priority. We specialize in relocating buyers and helping sellers get the most for their listing. Let us go above and beyond for all of your real estate needs in El Paso.',
+          images: [
+            {
+              url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
+              width: 720,
+              height: 720,
+              alt: 'El Paso Real Estate - Peña El Paso logo',
+            },
+            // {
+            //   url: 'https://www.example.ie/og-image-02.jpg',
+            //   width: 900,
+            //   height: 800,
+            //   alt: 'Og Image Alt Second',
+            // },
+            // { url: 'https://www.example.ie/og-image-03.jpg' },
+            // { url: 'https://www.example.ie/og-image-04.jpg' },
+          ],
+        }}
       />
 
       <div className={ContactStyles.contact}>

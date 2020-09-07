@@ -6,17 +6,51 @@ import BlogStyles from '../../stylesheets/Blog.module.css';
 const Blog = () => (
   <>
     <Head>
-      <title>Peña El Paso | Real Estate Blog</title>
+      <title>El Paso Real Estate - Blog | Peña El Paso</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso | Real Estate Blog'
-      description='The Peña El Paso blog features lifestyle, community, and real estate trends that are happening in El Paso and the country. John Peña also has a Youtube channel called "Living in El Paso Texas" that showcases our amazing city and community.'
-      canonical='https://penaelpaso.com/blog'
+      title='El Paso Real Estate - Blog | Peña El Paso'
+      description='The blog features lifestyle, community, and real estate trends that are happening in El Paso and the country. John Peña also has a Youtube channel called "Living in El Paso Texas" that showcases our amazing city and community. El Paso real estate is our passion and expertise.'
+      canonical='https://penaelpaso.com/blog/index'
+      openGraph={{
+        url: 'https://penaelpaso.com/blog/index',
+        title: 'El Paso Real Estate - Blog | Peña El Paso',
+        description: 'Peña El Paso is the premier real estate service for buyers, sellers, and investors in El Paso, Texas. Your real estate needs are our highest priority. We specialize in relocating buyers and helping sellers get the most for their listing. Let us go above and beyond for all of your real estate needs in El Paso.',
+        images: [
+          {
+            url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
+            width: 720,
+            height: 720,
+            alt: 'El Paso Real Estate - Peña El Paso logo',
+          },
+          // {
+          //   url: 'https://www.example.ie/og-image-02.jpg',
+          //   width: 900,
+          //   height: 800,
+          //   alt: 'Og Image Alt Second',
+          // },
+          // { url: 'https://www.example.ie/og-image-03.jpg' },
+          // { url: 'https://www.example.ie/og-image-04.jpg' },
+        ],
+      }}
     />
 
     <div className={BlogStyles.blog}>
       <h1>Welcome to the blog!</h1>
+
+      <Link href='/blog/posts/cost-living-el-paso'>
+        <div className={BlogStyles.card}>
+          <span>September 7, 2020</span>
+          <p>What's the Cost of Living in El Paso Texas?</p>
+          <span>#elpasotexas #elpasocostofliving #livinginelpasotexas</span>
+
+          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1599500115/Pe%C3%B1a%20El%20Paso/Blog/living-cost-thumb-522.jpg' alt='el-paso-cost-of-living' title='el-paso-cost-of-living' />
+
+          <h2>El Paso Cost of Living</h2>
+          <p>Here's a video from our YouTube channel, 'Living In El Paso Texas' and you won't believe the cost of living here!</p>
+        </div>
+      </Link>
 
       <Link href='/blog/posts/west-side-el-paso'>
         <div className={BlogStyles.card}>

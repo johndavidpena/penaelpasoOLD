@@ -6,9 +6,9 @@ export default {
     locale: 'en_IE',
     site_name: 'Peña El Paso',
   },
-  // twitter: {
-  //   handle: '@handle',
-  //   site: '@site',
-  //   cardType: 'summary_large_image',
-  // },
+  twitter: {
+    handle: '@PocktHerc',
+    site: '@site',
+    cardType: 'summary_large_image',
+  },
 }

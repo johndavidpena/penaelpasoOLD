@@ -24,13 +24,34 @@ const Sellers = () => {
   return (
     <>
       <Head>
-        <title>Peña El Paso - Sellers</title>
+        <title>El Paso Real Estate - Sellers | Peña El Paso</title>
       </Head>
 
       <NextSeo
-        title='Peña El Paso - Sellers'
-        description='Peña El Paso serves buyers, sellers, and investors in the greater El Paso area.'
+        title='El Paso Real Estate - Sellers | Peña El Paso'
+        description='Peña El Paso is the premier real estate service for buyers, sellers, and investors in El Paso, Texas. Your real estate needs are our highest priority. We specialize in relocating buyers and helping sellers get the most for their listing. Let us go above and beyond for all of your real estate needs in El Paso.'
         canonical='https://penaelpaso.com/sellers/index'
+        openGraph={{
+          url: 'https://penaelpaso.com/sellers/index',
+          title: 'El Paso Real Estate - Sellers | Peña El Paso',
+          description: 'Peña El Paso is the premier real estate service for buyers, sellers, and investors in El Paso, Texas. Your real estate needs are our highest priority. We specialize in relocating buyers and helping sellers get the most for their listing. Let us go above and beyond for all of your real estate needs in El Paso.',
+          images: [
+            {
+              url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
+              width: 720,
+              height: 720,
+              alt: 'El Paso Real Estate - Peña El Paso logo',
+            },
+            // {
+            //   url: 'https://www.example.ie/og-image-02.jpg',
+            //   width: 900,
+            //   height: 800,
+            //   alt: 'Og Image Alt Second',
+            // },
+            // { url: 'https://www.example.ie/og-image-03.jpg' },
+            // { url: 'https://www.example.ie/og-image-04.jpg' },
+          ],
+        }}
       />
 
       <div className={IndexStyles.pageContainer}>

@@ -5,13 +5,34 @@ import BlogStyles from '../../../stylesheets/Blog.module.css';
 const Post = () => (
   <>
     <Head>
-      <title>Peña El Paso | Sheltering in Place</title>
+      <title>El Paso Real Estate - Sheltering in Place | Peña El Paso</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso | Sheltering in Place'
+      title='El Paso Real Estate - Sheltering in Place | Peña El Paso'
       description='As many people find themselves sheltering in place because of the pandemic, some are re-thinking what they want in a home.'
       canonical='https://penaelpaso.com/blog/posts/shelter-in-place'
+      openGraph={{
+        url: 'https://penaelpaso.com/blog/posts/shelter-in-place',
+        title: 'El Paso Real Estate - Sheltering in Place | Peña El Paso',
+        description: 'As many people find themselves sheltering in place because of the pandemic, some are re-thinking what they want in a home.',
+        images: [
+          {
+            url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
+            width: 720,
+            height: 720,
+            alt: 'El Paso Real Estate - Peña El Paso logo',
+          },
+          // {
+          //   url: 'https://www.example.ie/og-image-02.jpg',
+          //   width: 900,
+          //   height: 800,
+          //   alt: 'Og Image Alt Second',
+          // },
+          // { url: 'https://www.example.ie/og-image-03.jpg' },
+          // { url: 'https://www.example.ie/og-image-04.jpg' },
+        ],
+      }}
     />
 
     <div className={BlogStyles.blog}>

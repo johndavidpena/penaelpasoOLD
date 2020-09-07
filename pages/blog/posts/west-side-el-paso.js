@@ -6,13 +6,34 @@ import VideoStyles from '../../../stylesheets/Video.module.css';
 const Post = () => (
   <>
     <Head>
-      <title>Peña El Paso | West Side of El Paso</title>
+      <title>El Paso Real Estate - West Side of El Paso | Peña El Paso</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso | West Side of El Paso'
+      title='El Paso Real Estate - West Side of El Paso | Peña El Paso'
       description='The Franklin Mountains split El Paso into the west and east sides. This video from our Youtube channel "Living in El Paso Texas" is all about the sights and sounds of the west side.'
       canonical='https://penaelpaso.com/blog/posts/west-side-el-paso'
+      openGraph={{
+        url: 'https://penaelpaso.com/blog/posts/west-side-el-paso',
+        title: 'El Paso Real Estate - West Side of El Paso | Peña El Paso',
+        description: 'The Franklin Mountains split El Paso into the west and east sides. This video from our Youtube channel "Living in El Paso Texas" is all about the sights and sounds of the west side.',
+        images: [
+          {
+            url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
+            width: 720,
+            height: 720,
+            alt: 'El Paso Real Estate - Peña El Paso logo',
+          },
+          // {
+          //   url: 'https://www.example.ie/og-image-02.jpg',
+          //   width: 900,
+          //   height: 800,
+          //   alt: 'Og Image Alt Second',
+          // },
+          // { url: 'https://www.example.ie/og-image-03.jpg' },
+          // { url: 'https://www.example.ie/og-image-04.jpg' },
+        ],
+      }}
     />
 
     <div className={BlogStyles.blog}>

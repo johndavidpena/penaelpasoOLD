@@ -22,13 +22,34 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Peña El Paso | About John Peña</title>
+        <title>El Paso Real Estate | About Peña El Paso</title>
       </Head>
 
       <NextSeo
-        title='Peña El Paso | About John Peña'
-        description='John Peña is the owner of Peña El Paso. He is a dedicated and trusted realtor in the greater El Paso area. As a former educator turned real estate agent, he understands how to communicate and work tirelessly on your behalf.'
+        title='El Paso Real Estate | About Peña El Paso'
+        description='John Peña is the owner of Peña El Paso. He is a dedicated and trusted realtor in the greater El Paso area. As a former educator turned real estate agent, he understands how to communicate and work tirelessly on your behalf. El Paso real estate is his passion.'
         canonical='https://penaelpaso.com/about'
+        openGraph={{
+          url: 'https://penaelpaso.com/about',
+          title: 'El Paso Real Estate | About Peña El Paso',
+          description: 'Peña El Paso is the premier real estate service for buyers, sellers, and investors in El Paso, Texas. Your real estate needs are our highest priority. We specialize in relocating buyers and helping sellers get the most for their listing. Let us go above and beyond for all of your real estate needs in El Paso.',
+          images: [
+            {
+              url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
+              width: 720,
+              height: 720,
+              alt: 'El Paso Real Estate - Peña El Paso logo',
+            },
+            // {
+            //   url: 'https://www.example.ie/og-image-02.jpg',
+            //   width: 900,
+            //   height: 800,
+            //   alt: 'Og Image Alt Second',
+            // },
+            // { url: 'https://www.example.ie/og-image-03.jpg' },
+            // { url: 'https://www.example.ie/og-image-04.jpg' },
+          ],
+        }}
       />
 
       <div className={AboutStyles.about}>

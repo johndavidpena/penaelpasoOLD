@@ -5,13 +5,34 @@ import BlogStyles from '../../../stylesheets/Blog.module.css';
 const Post = () => (
   <>
     <Head>
-      <title>Peña El Paso | Working from Home</title>
+      <title>El Paso Real Estate - Working from Home | Peña El Paso</title>
     </Head>
 
     <NextSeo
-      title='Peña El Paso | Working from Home'
+      title='El Paso Real Estate - Working from Home | Peña El Paso'
       description='With the onset of the global pandemic, many employees find themselves working from home. This begs the question, are work from home employees reconsidering where they can and should live?'
       canonical='https://penaelpaso.com/blog/posts/working-from-home'
+      openGraph={{
+        url: 'https://penaelpaso.com/blog/posts/working-from-home',
+        title: 'El Paso Real Estate - Working from Home | Peña El Paso',
+        description: 'With the onset of the global pandemic, many employees find themselves working from home. This begs the question, are work from home employees reconsidering where they can and should live?',
+        images: [
+          {
+            url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
+            width: 720,
+            height: 720,
+            alt: 'El Paso Real Estate - Peña El Paso logo',
+          },
+          // {
+          //   url: 'https://www.example.ie/og-image-02.jpg',
+          //   width: 900,
+          //   height: 800,
+          //   alt: 'Og Image Alt Second',
+          // },
+          // { url: 'https://www.example.ie/og-image-03.jpg' },
+          // { url: 'https://www.example.ie/og-image-04.jpg' },
+        ],
+      }}
     />
 
     <div className={BlogStyles.blog}>
