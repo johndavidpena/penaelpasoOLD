@@ -38,10 +38,8 @@ const Post = () => (
 
     <div className={BlogStyles.blog}>
       <div className={BlogStyles.post}>
-        <div className={VideoStyles.container}>
-          <div className={VideoStyles.videoResponsive}>
-            <iframe title="What El Paso Texas' Geography Has to Offer You" width="560" height="315" src="https://www.youtube.com/embed/NSnTYqDHzIc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </div>
+        <div className={VideoStyles.videoResponsive}>
+          <iframe title="What El Paso Texas' Geography Has to Offer You" width="560" height="315" src="https://www.youtube.com/embed/NSnTYqDHzIc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
 
         <div className={BlogStyles.postTitle}>

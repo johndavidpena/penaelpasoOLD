@@ -38,10 +38,8 @@ const Post = () => (
 
     <div className={BlogStyles.blog}>
       <div className={BlogStyles.post}>
-        <div className={VideoStyles.container}>
-          <div className={VideoStyles.videoResponsive}>
-            <iframe title='el paso texas cost of living' width="560" height="315" src="https://www.youtube.com/embed/_AiIxHEYXqI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </div>
+        <div className={VideoStyles.videoResponsive}>
+          <iframe title='el paso texas cost of living' width="560" height="315" src="https://www.youtube.com/embed/_AiIxHEYXqI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
 
         <div className={BlogStyles.postTitle}>

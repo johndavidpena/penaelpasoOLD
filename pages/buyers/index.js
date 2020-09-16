@@ -4,6 +4,8 @@ import { useWindowSize } from '../../hooks/useWindowSize';
 import { NextSeo } from 'next-seo';
 import IndexStyles from '../../stylesheets/Index.module.css';
 import BuyerStyles from '../../stylesheets/Buyers.module.css';
+import BlogStyles from '../../stylesheets/Blog.module.css';
+import VideoStyles from '../../stylesheets/Video.module.css';
 import BuyersGuide from './BuyersGuide';
 
 const Buyers = () => {
@@ -53,6 +55,14 @@ const Buyers = () => {
           ],
         }}
       />
+
+      <div className={BlogStyles.blog}>
+        <div className={BlogStyles.post}>
+          <div className={VideoStyles.videoResponsive}>
+            <iframe title='home buying costs' width="560" height="315" src="https://www.youtube.com/embed/8zaNaWdv-rg" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+        </div>
+      </div>
 
       <div className={IndexStyles.pageContainer}>
         <BuyersGuide />
