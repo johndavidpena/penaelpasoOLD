@@ -62,7 +62,7 @@ const About = () => {
 
         {screenSize === 'desktop' && (
           <div className={AboutStyles.image}>
-            <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597529025/Pe%C3%B1a%20El%20Paso/john-pena-headshot-d.jpg' alt='john-pena-headshot' title='john-pena-headshot' />
+            <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597529025/Pe%C3%B1a%20El%20Paso/john-pena-headshot-m.jpg' alt='john-pena-headshot' title='john-pena-headshot' />
           </div>
         )}
 
