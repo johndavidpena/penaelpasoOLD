@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { NextSeo } from 'next-seo';
+import { NextSeo, ArticleJsonLd } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 
 const Post = () => (
@@ -23,14 +23,18 @@ const Post = () => (
             height: 720,
             alt: 'El Paso Real Estate - Peña El Paso logo',
           },
-          // {
-          //   url: 'https://www.example.ie/og-image-02.jpg',
-          //   width: 900,
-          //   height: 800,
-          //   alt: 'Og Image Alt Second',
-          // },
-          // { url: 'https://www.example.ie/og-image-03.jpg' },
-          // { url: 'https://www.example.ie/og-image-04.jpg' },
+          {
+            url: 'https://images.unsplash.com/photo-1524601500432-1e1a4c71d692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80',
+            width: 900,
+            height: 800,
+            alt: 'millennials-making-hearthands',
+          },
+          {
+            url: 'https://images.unsplash.com/photo-1586034679970-cb7b5fc4928a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
+            width: 900,
+            height: 800,
+            alt: 'piggy-bank',
+          },
         ],
       }}
     />
@@ -43,6 +47,19 @@ const Post = () => (
           <h1>Are Millennials Interested in Homeownership? - Pt. 2</h1>
           <span>July 28, 2020</span>
         </div>
+        <ArticleJsonLd
+          url="https://penaelpaso.com/blog/posts/millennials-homeownership-2"
+          title="Are Millennials Interested in Homeownership? - Pt. 2"
+          images={[
+            'https://images.unsplash.com/photo-1524601500432-1e1a4c71d692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80',
+            'https://images.unsplash.com/photo-1586034679970-cb7b5fc4928a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
+          ]}
+          datePublished="2020-07-28T08:00:00+08:00"
+          authorName="John Pena"
+          publisherName="Peña El Paso"
+          publisherLogo="https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png"
+          description="Are millennials interested in home ownership? This post wraps up the two part topic while drawing several conclusions about the question."
+        />
 
         <p>In part 1 on this topic, we explored the idea of millennials and their relationship with homeownership. And while this generation is certainly different than previous ones, the question was asked, 'Are millennials interested in buying homes?' Well, what do millennials themselves say when asked this question?</p>
         <br />

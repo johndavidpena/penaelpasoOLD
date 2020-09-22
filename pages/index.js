@@ -51,14 +51,12 @@ export default () => {
               height: 720,
               alt: 'El Paso Real Estate - Peña El Paso logo',
             },
-            // {
-            //   url: 'https://www.example.ie/og-image-02.jpg',
-            //   width: 900,
-            //   height: 800,
-            //   alt: 'Og Image Alt Second',
-            // },
-            // { url: 'https://www.example.ie/og-image-03.jpg' },
-            // { url: 'https://www.example.ie/og-image-04.jpg' },
+            {
+              url: 'https://res.cloudinary.com/mimas-music/image/upload/v1600702022/Pe%C3%B1a%20El%20Paso/beautiful-kitchen-d700.jpg',
+              width: 700,
+              height: 482,
+              alt: 'beautiful-kitchen',
+            },
           ],
         }}
       />

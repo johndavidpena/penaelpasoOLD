@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { NextSeo } from 'next-seo';
+import { NextSeo, ArticleJsonLd } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 
 const Post = () => (
@@ -23,14 +23,18 @@ const Post = () => (
             height: 720,
             alt: 'El Paso Real Estate - Peña El Paso logo',
           },
-          // {
-          //   url: 'https://www.example.ie/og-image-02.jpg',
-          //   width: 900,
-          //   height: 800,
-          //   alt: 'Og Image Alt Second',
-          // },
-          // { url: 'https://www.example.ie/og-image-03.jpg' },
-          // { url: 'https://www.example.ie/og-image-04.jpg' },
+          {
+            url: 'https://media-exp1.licdn.com/dms/image/C5612AQGRIfhPo74Z6w/article-cover_image-shrink_720_1280/0?e=1599696000&v=beta&t=XlepB8dDTJBQf7OZomCsFWWE0gbyWQVJnUKYGj1M5Nk',
+            width: 900,
+            height: 800,
+            alt: 'woman-working-from-home',
+          },
+          {
+            url: 'https://media-exp1.licdn.com/dms/image/C5612AQFXpB0x9pS4_A/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=Sk-_Qtq96VxYx5iZMVkhfQvkhFXhv05fvicTa3loVRk',
+            width: 900,
+            height: 800,
+            alt: 'indoor-outdoor-space',
+          },
         ],
       }}
     />
@@ -43,6 +47,19 @@ const Post = () => (
           <h1>Has Sheltering In Place Changed What We Want In Our Homes?</h1>
           <span>June 30, 2020</span>
         </div>
+        <ArticleJsonLd
+          url="https://penaelpaso.com/blog/posts/shelter-in-place"
+          title="Has Sheltering In Place Changed What We Want In Our Homes?"
+          images={[
+            'https://media-exp1.licdn.com/dms/image/C5612AQGRIfhPo74Z6w/article-cover_image-shrink_720_1280/0?e=1599696000&v=beta&t=XlepB8dDTJBQf7OZomCsFWWE0gbyWQVJnUKYGj1M5Nk',
+            'https://media-exp1.licdn.com/dms/image/C5612AQFXpB0x9pS4_A/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=Sk-_Qtq96VxYx5iZMVkhfQvkhFXhv05fvicTa3loVRk',
+          ]}
+          datePublished="2020-06-30T08:00:00+08:00"
+          authorName="John Pena"
+          publisherName="Peña El Paso"
+          publisherLogo="https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png"
+          description="As many people find themselves sheltering in place because of the pandemic, some are re-thinking what they want in a home."
+        />
 
         <p>The term ‘sheltering in place’ has taken on a whole new meaning as of late and it has also changed the home experience for many. With more companies offering the ability to work remotely and school aged children being home full time, what people want in their homes is changing when it comes to preferences and priorities. Let’s take a look at some of the trends in home renovation and see how many homeowners are adapting their space to better suit their needs.</p>
         <br />

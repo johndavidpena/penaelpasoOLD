@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { NextSeo } from 'next-seo';
+import { NextSeo, ArticleJsonLd } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 
 const Post = () => (
@@ -23,14 +23,18 @@ const Post = () => (
             height: 720,
             alt: 'El Paso Real Estate - Peña El Paso logo',
           },
-          // {
-          //   url: 'https://www.example.ie/og-image-02.jpg',
-          //   width: 900,
-          //   height: 800,
-          //   alt: 'Og Image Alt Second',
-          // },
-          // { url: 'https://www.example.ie/og-image-03.jpg' },
-          // { url: 'https://www.example.ie/og-image-04.jpg' },
+          {
+            url: 'https://media-exp1.licdn.com/dms/image/C5612AQHry1gmrrHVSg/article-cover_image-shrink_720_1280/0?e=1599696000&v=beta&t=UcMdn_bCT-VJu_4W4UIgxNxXz39vr35ko3MavE-3oD0',
+            width: 900,
+            height: 800,
+            alt: 'desert-sidewalk-home',
+          },
+          {
+            url: 'https://media-exp1.licdn.com/dms/image/C5612AQFeF5HtzPygIg/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=KXoF_Z0cWjDXeS_SD3iP4VG3DG8BADu5ObA1YOtEkcg',
+            width: 900,
+            height: 800,
+            alt: 'graph-relocate-survey',
+          },
         ],
       }}
     />
@@ -43,6 +47,19 @@ const Post = () => (
           <h1>Is Working From Home Changing Where We Can Live?</h1>
           <span>June 12, 2020</span>
         </div>
+        <ArticleJsonLd
+          url="https://penaelpaso.com/blog/posts/working-from-home"
+          title="Is Working From Home Changing Where We Can Live?"
+          images={[
+            'https://media-exp1.licdn.com/dms/image/C5612AQHry1gmrrHVSg/article-cover_image-shrink_720_1280/0?e=1599696000&v=beta&t=UcMdn_bCT-VJu_4W4UIgxNxXz39vr35ko3MavE-3oD0',
+            'https://media-exp1.licdn.com/dms/image/C5612AQFeF5HtzPygIg/article-inline_image-shrink_1000_1488/0?e=1599696000&v=beta&t=KXoF_Z0cWjDXeS_SD3iP4VG3DG8BADu5ObA1YOtEkcg',
+          ]}
+          datePublished="2020-06-12T08:00:00+08:00"
+          authorName="John Pena"
+          publisherName="Peña El Paso"
+          publisherLogo="https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png"
+          description="With the onset of the global pandemic, many employees find themselves working from home. This begs the question, are work from home employees reconsidering where they can and should live?"
+        />
 
         <p>Imagine that you are living in or around Silicon Valley in order to go to work. This area is extremely expensive to live in due to the lack of new housing and the wealth created by the tech boom. But what if you could keep your same job and work from home? Now you could move to a less expensive area and find your dream home.</p>
         <br />

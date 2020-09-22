@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { NextSeo } from 'next-seo';
+import { NextSeo, ArticleJsonLd } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 
 const Post = () => (
@@ -23,14 +23,18 @@ const Post = () => (
             height: 720,
             alt: 'El Paso Real Estate - Peña El Paso logo',
           },
-          // {
-          //   url: 'https://www.example.ie/og-image-02.jpg',
-          //   width: 900,
-          //   height: 800,
-          //   alt: 'Og Image Alt Second',
-          // },
-          // { url: 'https://www.example.ie/og-image-03.jpg' },
-          // { url: 'https://www.example.ie/og-image-04.jpg' },
+          {
+            url: 'https://images.unsplash.com/photo-1508166785545-c2dd4c113c66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
+            width: 900,
+            height: 800,
+            alt: 'millennials-taking-selfies',
+          },
+          {
+            url: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80',
+            width: 900,
+            height: 800,
+            alt: 'young-people-working',
+          },
         ],
       }}
     />
@@ -43,6 +47,19 @@ const Post = () => (
           <h1>Are Millennials Interested in Homeownership? - Pt. 1</h1>
           <span>July 8, 2020</span>
         </div>
+        <ArticleJsonLd
+          url="https://penaelpaso.com/blog/posts/millennials-homeownership-1"
+          title="Are Millennials Interested in Homeownership? - Pt. 1"
+          images={[
+            'https://images.unsplash.com/photo-1508166785545-c2dd4c113c66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
+            'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80',
+          ]}
+          datePublished="2020-07-08T08:00:00+08:00"
+          authorName="John Pena"
+          publisherName="Peña El Paso"
+          publisherLogo="https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png"
+          description="Are millennials interested in home ownership? This two part blog post explores that question in 2020."
+        />
 
         <p>Millennials make up the generation of adults between the ages of 22 and 39 or those born between 1981 - 1996 roughly. In total, there are roughly 72 million millennials that make up the largest cohort in America. For comparison sake, there are about 65 million Gen Xers out there.</p>
         <br />
