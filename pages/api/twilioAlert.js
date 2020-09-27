@@ -17,7 +17,7 @@ handler.post((req, res) => {
     .create({
       from: '+19152332022',
       to: '+19153553477',
-      body: `${firstName} ${lastName} submitted their contact info!`
+      body: `${firstName} ${lastName} submitted at Peña El Paso!`
     })
     .catch(err => {
       console.log(err);
