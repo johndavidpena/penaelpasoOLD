@@ -1,6 +1,11 @@
 .blog {
   padding-top: 112px;
 }
+@media (max-width: 768px) {
+  .blog {
+    padding-top: 0;
+  }
+}
 
 .blog h1 {
   text-align: center;
