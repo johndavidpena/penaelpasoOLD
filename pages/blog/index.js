@@ -45,7 +45,7 @@ const Blog = () => (
           <p>What's the Cost of Living in El Paso Texas?</p>
           <span>#elpasotexas #elpasocostofliving #livinginelpasotexas</span>
 
-          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1599500115/Pe%C3%B1a%20El%20Paso/Blog/living-cost-thumb-522.jpg' alt='el-paso-cost-of-living' title='el-paso-cost-of-living' />
+          <img src='https://res.cloudinary.com/mimas-music/image/upload/v1603729825/Pe%C3%B1a%20El%20Paso/Blog/cost-living-updated-522.jpg' alt='el-paso-cost-of-living' title='el-paso-cost-of-living' />
 
           <h2>El Paso Cost of Living</h2>
           <p>Here's a video from our YouTube channel, 'Living In El Paso Texas' and you won't believe the cost of living here!</p>
