@@ -11,12 +11,12 @@ const Post = () => (
 
     <NextSeo
       title='El Paso Real Estate - East Side of El Paso | Peña El Paso'
-      description='The Franklin Mountains split El Paso into the west and east sides. This video from our Youtube channel "Living in El Paso Texas" is all about the sights and sounds of the east side.'
+      description='The Franklin Mountains split El Paso into the west and east sides. This video from our YouTube channel "Living in El Paso Texas" is all about the sights and sounds of the east side.'
       canonical='https://penaelpaso.com/blog/posts/east-side-el-paso'
       openGraph={{
         url: 'https://penaelpaso.com/blog/posts/east-side-el-paso',
         title: 'El Paso Real Estate - East Side of El Paso | Peña El Paso',
-        description: 'The Franklin Mountains split El Paso into the west and east sides. This video from our Youtube channel "Living in El Paso Texas" is all about the sights and sounds of the east side.',
+        description: 'The Franklin Mountains split El Paso into the west and east sides. This video from our YouTube channel, Living in El Paso Texas, is all about the sights and sounds of the east side.',
         images: [
           {
             url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',

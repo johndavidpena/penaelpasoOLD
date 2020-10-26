@@ -71,21 +71,31 @@ const Sellers = () => {
 
             <p>The assurance that you can avoid pain and gain pleasure. In this case, 'pain' includes many of the common hassles and stresses involved in selling a home. 'Pleasure' is most commonly found in getting top dollar for your home in the shortest amount of time.</p>
 
+            <br />
+
             <h4 className={SellerStyles.assurances}>Variety</h4>
 
             <p>The need for the unknown, change, new stimuli, or something different. Gone are the days of putting a 'For Sale' sign in the yard and putting your home on the local MLS. At Peña El Paso we leverage modern technology and a wide social media outreach that most agents can not offer.</p>
+
+            <br />
 
             <h4 className={SellerStyles.assurances}>Significance</h4>
 
             <p>To feel unique, important, special, and needed. One of the unique ways that we create a sense of significance for you as a home seller is how we market your home. While most agents can post images of your property to their personal social media accounts, the reality is that these posts are not going to reach more than a handful of disinterested viewers. At Peña El Paso, we produce a professional video tour of your home and post it to our YouTube channel, <a className={SellerStyles.link} href='https://www.youtube.com/channel/UCmOlalytn-ZkxGjZspmhj6w' target='_blank'>'Living in El Paso Texas'</a> that reaches thousands of viewers who are actually interested in acquiring homes.</p>
 
+            <br />
+
             <h4 className={SellerStyles.assurances}>Connection</h4>
 
             <p>A strong feeling of closeness or union with someone or something. As a client, we guarantee that you will feel connected! This is accomplished primarily through fantastic communication. I understand that great communication starts with listening. You want and deserve constant feedback, honesty, and professional insight.</p>
 
+            <br />
+
             <h4 className={SellerStyles.assurances}>Growth</h4>
 
             <p>An expansion of capacity, capability or understanding. For the investor that is looking to sell a property, the ever-widening reach of Peña El Paso offers an opportunity to network with more potential customers and find more deals. Your desire to increase equity or generate passive income can be facilitated directly by fostering a lasting relationship with us.</p>
+
+            <br />
 
             <h4 className={SellerStyles.assurances}>Contribution</h4>
 

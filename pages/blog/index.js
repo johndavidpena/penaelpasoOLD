@@ -11,12 +11,12 @@ const Blog = () => (
 
     <NextSeo
       title='El Paso Real Estate - Blog | Peña El Paso'
-      description='The blog features lifestyle, community, and real estate trends that are happening in El Paso and the country. John Peña also has a Youtube channel called "Living in El Paso Texas" that showcases our amazing city and community. El Paso real estate is our passion and expertise.'
+      description='The blog features lifestyle, community, and real estate trends that are happening in El Paso and the country. John Peña also has a YouTube channel called Living in El Paso Texas that showcases our amazing city and community. El Paso real estate is our passion and expertise.'
       canonical='https://penaelpaso.com/blog/index'
       openGraph={{
         url: 'https://penaelpaso.com/blog/index',
         title: 'El Paso Real Estate - Blog | Peña El Paso',
-        description: 'The blog features lifestyle, community, and real estate trends that are happening in El Paso and the country. John Peña also has a Youtube channel called "Living in El Paso Texas" that showcases our amazing city and community. El Paso real estate is our passion and expertise.',
+        description: 'The blog features lifestyle, community, and real estate trends that are happening in El Paso and the country. John Peña also has a YouTube channel called Living in El Paso Texas that showcases our amazing city and community. El Paso real estate is our passion and expertise.',
         images: [
           {
             url: 'https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png',
