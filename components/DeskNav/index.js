@@ -7,11 +7,11 @@ const DeskNav = () => (
     <div className={NavStyles.logo}>
       <Link href='/index'>
         <img src='https://res.cloudinary.com/mimas-music/image/upload/v1597688173/Pe%C3%B1a%20El%20Paso/120BLACKonWHITE.jpg' alt='Peña-El-Paso-logo' title=' Peña-El-Paso-logo' />
-        <LogoJsonLd
-          logo="https://res.cloudinary.com/mimas-music/image/upload/v1597688173/Pe%C3%B1a%20El%20Paso/120BLACKonWHITE.jpg"
-          url="https://penaelpaso.com"
-        />
       </Link>
+      <LogoJsonLd
+        logo="https://res.cloudinary.com/mimas-music/image/upload/v1597688173/Pe%C3%B1a%20El%20Paso/120BLACKonWHITE.jpg"
+        url="https://penaelpaso.com"
+      />
     </div>
 
     <div className={NavStyles.menuItems}>

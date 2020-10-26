@@ -20,11 +20,12 @@ const Header = ({ open, setOpen }) => {
       <div className={MHStyles.logo}>
         <Link href='/'>
           <img src='https://res.cloudinary.com/mimas-music/image/upload/v1596766317/Pe%C3%B1a%20El%20Paso/720BLACKevenedOUT.png' alt='Peña-El-Paso-logo' title='Peña-El-Paso-logo' />
-          <LogoJsonLd
-            logo="https://res.cloudinary.com/mimas-music/image/upload/v1597688173/Pe%C3%B1a%20El%20Paso/120BLACKonWHITE.jpg"
-            url="https://penaelpaso.com"
-          />
         </Link>
+
+        <LogoJsonLd
+          logo="https://res.cloudinary.com/mimas-music/image/upload/v1597688173/Pe%C3%B1a%20El%20Paso/120BLACKonWHITE.jpg"
+          url="https://penaelpaso.com"
+        />
       </div>
     </nav>
   );
