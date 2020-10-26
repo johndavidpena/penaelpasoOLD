@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { NextSeo, ArticleJsonLd, CarouselJsonLd } from 'next-seo';
+import { NextSeo, ArticleJsonLd } from 'next-seo';
 import BlogStyles from '../../../stylesheets/Blog.module.css';
 import VideoStyles from '../../../stylesheets/Video.module.css';
 
@@ -38,25 +38,6 @@ const Post = () => (
       <div className={BlogStyles.post}>
         <div className={VideoStyles.videoResponsive}>
           <iframe title='el paso texas cost of living' width="560" height="315" src="https://www.youtube.com/embed/_AiIxHEYXqI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <CarouselJsonLd
-            type='VideoObject'
-            data={[
-              {
-                video: {
-                  name: 'The Cost of Living in El Paso Texas',
-                  description: 'This video is all about the affordability and cost of living in El Paso Texas.',
-                  thumbnailUrls: [
-                    'https://res.cloudinary.com/mimas-music/image/upload/v1603729314/Living%20In%20El%20Paso%20Texas/cost-living-d.jpg'
-                  ],
-                  contentUrl: 'https://youtu.be/_AiIxHEYXqI',
-                  embedUrl: 'https://www.youtube.com/embed/_AiIxHEYXqI',
-                  uploadDate: '2020-09-07',
-                  duration: '',
-                  expires: '2024-09-07',
-                },
-              }
-            ]}
-          />
         </div>
 
         <div className={BlogStyles.postTitle}>
