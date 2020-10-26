@@ -39,7 +39,7 @@ const Blog = () => (
     <div className={BlogStyles.blog}>
       <h1>Welcome to the blog!</h1>
 
-      <Link href='/blog/posts/cost-living-el-paso'>
+      {/* <Link href='/blog/posts/cost-living-el-paso'>
         <div className={BlogStyles.card}>
           <span>September 7, 2020</span>
           <p>What's the Cost of Living in El Paso Texas?</p>
@@ -50,7 +50,7 @@ const Blog = () => (
           <h2>El Paso Cost of Living</h2>
           <p>Here's a video from our YouTube channel, 'Living In El Paso Texas' and you won't believe the cost of living here!</p>
         </div>
-      </Link>
+      </Link> */}
 
       <Link href='/blog/posts/west-side-el-paso'>
         <div className={BlogStyles.card}>
