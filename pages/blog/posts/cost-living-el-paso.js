@@ -29,8 +29,9 @@ const Post = () => (
             width: 770,
             height: 443,
             alt: 'Cost of Living El Paso Texas',
-          }
+          },
         ],
+        site_name: 'Peña El Paso',
       }}
     />
 
@@ -47,7 +48,7 @@ const Post = () => (
             url='https://penaelpaso.com/blog/posts/cost-living-el-paso'
             title="Cost of Living in El Paso Texas"
             images={[
-              'https://res.cloudinary.com/mimas-music/image/upload/v1603729314/Living%20In%20El%20Paso%20Texas/cost-living-d.jpg'
+              'https://res.cloudinary.com/mimas-music/image/upload/v1603729314/Living%20In%20El%20Paso%20Texas/cost-living-d.jpg',
             ]}
             datePublished="2020-09-07"
             authorName="John Pena"

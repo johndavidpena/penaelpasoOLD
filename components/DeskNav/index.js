@@ -15,7 +15,7 @@ const DeskNav = () => (
     </div>
 
     <div className={NavStyles.menuItems}>
-      <Link href='/blog/index'>
+      <Link href='/blog'>
         <div className={NavStyles.item}>
           <a>BLOG</a>
         </div>
@@ -27,13 +27,13 @@ const DeskNav = () => (
         </div>
       </Link>
 
-      <Link href='/sellers/index'>
+      <Link href='/sellers'>
         <div className={NavStyles.item}>
           <a>SELLERS</a>
         </div>
       </Link>
 
-      <Link href='/buyers/index'>
+      <Link href='/buyers'>
         <div className={NavStyles.item}>
           <a>BUYERS</a>
         </div>
