@@ -76,3 +76,7 @@
 // );
 
 // export default Post;
+
+export default function Nothing() {
+  return <h1>Nothing</h1>
+}
