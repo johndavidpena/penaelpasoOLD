@@ -53,7 +53,7 @@ const Post = () => (
             authorName="John Pena"
             publisherName="Living in El Paso Texas"
             publisherLogo="https://res.cloudinary.com/mimas-music/image/upload/v1599500723/New%20Agent%20Mindset/720blackonWHITE.jpg"
-            description='This video from our YouTube channel "Living in El Paso Texas" is about the unbelievable cost of living. From food to utilities to housing, you absolutely will not believe how affordable it is to live in El Paso Texas.'
+            description="This video from our YouTube channel 'Living in El Paso Texas' is about the unbelievable cost of living. From food to utilities to housing, you absolutely will not believe how affordable it is to live in El Paso Texas."
           />
           <span>September 7, 2020</span>
         </div>
