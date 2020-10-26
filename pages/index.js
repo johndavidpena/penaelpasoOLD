@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import { useWindowSize } from '../hooks/useWindowSize';
-import { NextSeo } from 'next-seo';
+import { NextSeo, LocalBusinessJsonLd } from 'next-seo';
 import Link from '../components/Link.js';
 import IndexStyles from '../stylesheets/Index.module.css';
 import '../components/Translate';
@@ -59,6 +59,47 @@ export default () => {
             },
           ],
         }}
+      />
+
+      <LocalBusinessJsonLd
+        type="RealEstateAgent"
+        id="https://penaelpaso.com"
+        name="Peña El Paso"
+        description="Peña El Paso is a premier real estate service in El Paso Texas."
+        url="https://penaelpaso.com"
+        telephone="+19153553477"
+        address={{
+          streetAddress: '',
+          addressLocality: 'El Paso',
+          addressRegion: 'TX',
+          postalCode: '79912',
+          addressCountry: 'US',
+        }}
+        geo={{
+          latitude: '31.7619',
+          longitude: '106.4850',
+        }}
+        images={[
+          'https://res.cloudinary.com/mimas-music/image/upload/v1603738711/Pe%C3%B1a%20El%20Paso/720BLACKonWHITE.jpg',
+          'https://res.cloudinary.com/mimas-music/image/upload/v1597529025/Pe%C3%B1a%20El%20Paso/john-pena-headshot-m.jpg',
+          'https://res.cloudinary.com/mimas-music/image/upload/v1600702022/Pe%C3%B1a%20El%20Paso/beautiful-kitchen-d700.jpg',
+        ]}
+        openingHours={[
+          {
+            opens: '08:00',
+            closes: '22:00',
+            dayOfWeek: [
+              'Monday',
+              'Tuesday',
+              'Wednesday',
+              'Thursday',
+              'Friday',
+              'Saturday',
+            ],
+            validFrom: '2020-10-23',
+            validThrough: '2021-10-23',
+          }
+        ]}
       />
 
       <div className={IndexStyles.pageOne}>
