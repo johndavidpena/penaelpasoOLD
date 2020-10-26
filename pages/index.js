@@ -14,7 +14,6 @@ import CardOne from '../components/Cards/CardOne';
 //     zoom: 12,
 //   }
 // }
-
 export default () => {
   const size = useWindowSize();
   let width = size.width;
