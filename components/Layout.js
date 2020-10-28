@@ -5,7 +5,8 @@ import MobHeader from './MobHeader';
 import DeskNav from './DeskNav';
 import Footer from './Footer';
 
-export default props => {
+// export default props => { ORIGINAL
+const Layout = props => {
   const fade = useSpring({ config: { duration: 950 }, from: { opacity: 0 }, opacity: 1 });
 
   const size = useWindowSize();
@@ -38,3 +39,5 @@ export default props => {
     </animated.div>
   );
 }
+
+export default Layout;
